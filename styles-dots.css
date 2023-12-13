@@ -1,0 +1,366 @@
+.random {
+  /* display: none; */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+  background-color: #fff;
+  top: 50%;
+
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 10px;
+
+  font-size: 20px;
+}
+
+.dot11 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 50%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot21 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot22 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  right: 5%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot31 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot32 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  right: 5%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot33 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 50%;
+  left: 50%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot41 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot42 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  left: 20%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot43 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot44 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  right: 5%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot51 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot52 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  left: 20%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot53 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot54 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  right: 5%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot55 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 50%;
+  left: 50%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot61 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot62 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  left: 20%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot63 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 85%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot64 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 15%;
+  right: 5%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot65 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 50%;
+  right: 5%;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dot66 {
+  /* display: none; */
+  width: 15px;
+  height: 15px;
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  /* opacity: 80%; */
+
+  top: 50%;
+  left: 20%;
+  background-color: #000;
+  border-radius: 50%;
+}

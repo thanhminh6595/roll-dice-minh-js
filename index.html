@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Lato:wght@300;400;700;900&family=Nunito:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;500;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mobile.css" media="(max-width:900px)">
+    <link rel="stylesheet" href="styles.css" media="(min-width:901px)"/>
+    <link rel="stylesheet" href="styles-dots.css" media="(min-width:901px)"/>
+
+    <title>Gieo Xuc Xac</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left light">
+        <h1 class="heading">Player 1</h1>
+        <div class="sum-point">0</div>
+        <div class="state">
+          <h3 class="state-text">current</h3>
+          <div class="state-current-point">0</div>
+        </div>
+      </div>
+      <div class="right dark">
+        <h1 class="heading">Player 2</h1>
+        <div class="sum-point">0</div>
+        <div class="state">
+          <h3 class="state-text">current</h3>
+          <div class="state-current-point">0</div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-new">🔄 New game</button>
+      <button type="button" class="btn btn-dice" id="button-dice">
+        🎲 Roll dice
+      </button>
+      <button type="button" class="btn btn-hold" id="button-hold">
+        📥 Hold
+      </button>
+      <button type="button" class=" btn-rule">
+      ❔</br> </button>
+      <div class="box-rule  hidden">
+        <div>
+          <h1 class="title-box">Luật chơi</h1>
+          <div class="text-box">
+  
+            <p>- Xúc sắc có 6 mặt (từ số 01 đến 06)</p>
+            <p>- Mỗi người chơi KHÔNG giới hạn số lần "ROLL DICE"</p>
+            <p>- Điểm hiện tại (CURRENT POINT) sẽ được cộng dồn từ các lần "ROLL DICE"</p>
+            <p>- Khi người chơi quay (Roll Dice) trúng "SỐ 01" (THE DEAD NUMBER), ngay lập tức mất điểm hiện tại (Current Point)</p>
+            <p>- Khi người chơi bấm nút "HOLD", ngay lập tức điểm hiện tại (Current Point) sẽ được cộng dồn vào điểm tổng của người chơi đó và chuyển lượt chơi đến người chơi còn lại.</p>
+            <p>- Người chơi nào có số điểm tông (SUMMARY POINT) là 100 điểm trước thì sẽ chiến thắng</p>
+          </div>
+        </div>
+        <img src="./screenshot_1691209138.png" class="image" alt="">
+      </div>
+      <div class="overlay hidden"></div>
+      <div class="btn-close hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        fill="none" viewBox="0 0 24 24" 
+        stroke-width="1.5" stroke="currentColor" 
+        class="close-icon hidden">
+          <path stroke-linecap="round" 
+          stroke-linejoin="round" 
+          d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        
+      </div>
+      <div class="random hidden">
+      
+        <div>
+          <div class="dot11 hidden"></div>
+        </div>
+        <div>
+          <div class="dot21 hidden"></div>
+          <div class="dot22 hidden"></div>
+        </div>
+        <div>
+          <div class="dot31 hidden"></div>
+          <div class="dot32 hidden"></div>
+          <div class="dot33 hidden"></div>
+        </div>
+        <div>
+          <div class="dot41 hidden"></div>
+          <div class="dot42 hidden"></div>
+          <div class="dot43 hidden"></div>
+          <div class="dot44 hidden"></div>
+        </div>
+        <div>
+          <div class="dot51 hidden"></div>
+          <div class="dot52 hidden"></div>
+          <div class="dot53 hidden"></div>
+          <div class="dot54 hidden"></div>
+          <div class="dot55 hidden"></div>
+        </div>
+        <div>
+          <div class="dot61 hidden"></div>
+          <div class="dot62 hidden"></div>
+          <div class="dot63 hidden"></div>
+          <div class="dot64 hidden"></div>
+          <div class="dot65 hidden"></div>
+          <div class="dot66 hidden"></div>
+        </div>
+      </div>
+    </div>
+    <script src="scriptInitials.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
